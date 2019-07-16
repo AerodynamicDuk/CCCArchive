@@ -1,4 +1,5 @@
-import java.util.Scanner;
+import java.util.*;
+
 public class J2_15 {
 
 	public static void main(String[] args) {
@@ -11,8 +12,7 @@ public class J2_15 {
 				happy++;
 			} else if (line.substring(i, i + 3).equals(":-(")){
 				sad++;
-			}
-			
+			}			
 		}
 		
 		if (happy > sad) {
@@ -33,8 +33,6 @@ public class J2_15 {
 		if (happy == sad) {
 			System.out.println("unsure");
 			return;
-		}	
-
+		}
 	}
-
 }
